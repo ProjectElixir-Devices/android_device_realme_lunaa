@@ -4,10 +4,15 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
-  
+
     <!-- Whether devices supports in-display fingerprint when screen is off -->
     <bool name="config_supportsScreenOffUdfps">true</bool>
 
-     <!-- Default values for LiveDisplay -->
+    <!-- Whether device has dash charging support -->
+    <bool name="config_hasDashCharger">true</bool>
+
+    <!-- Path to dash charging status file -->
+    <string name="config_DashChargerStatusPath" translatable="false">/sys/class/oplus_chg/battery/fast_charge</string>
+
     <bool name="config_enableLiveDisplay">false</bool>
 </resources>

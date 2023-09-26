@@ -60,7 +60,8 @@ PRODUCT_COPY_FILES += \
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-aosp
+    $(LOCAL_PATH)/overlay-aosp \
+    $(LOCAL_PATH)/overlay-elixir
 
 PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget \
