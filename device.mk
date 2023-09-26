@@ -42,7 +42,9 @@ PRODUCT_PACKAGES += \
     android.hardware.nfc-service.st \
     android.hardware.secure_element@1.2.vendor \
     com.android.nfc_extras \
-    Tag
+    Tag \
+    SecureElement \
+    NfcNci
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/nfc/libnfc-hal-st.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-hal-st.conf
