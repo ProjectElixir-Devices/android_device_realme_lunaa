@@ -1,0 +1,10 @@
+device/oneplus/
+device/realme
+vendor/oneplus/
+vendor/realme/
+vendor/oplus/
+vendor/firmware
+kernel/oneplus/
+hardware/oplus
+hardware/lineage/compat
+hardware/google/pixel/kernel_headers
